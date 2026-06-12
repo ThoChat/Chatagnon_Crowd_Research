@@ -1938,11 +1938,15 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			color: #1586ffc1;;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
 		}
+
+			.icon.featured:before {
+				font-size: 6em;
+			}
 
 			.icon.featured:before {
 				font-size: 6em;
