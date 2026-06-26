@@ -2415,6 +2415,19 @@ input, select, textarea {
 				line-height: 44px;
 			}
 
+				#nav .inner {
+					justify-content: space-between;
+				}
+
+				#nav .name,
+				#nav .lab-link {
+					position: static;
+				}
+
+				#nav ul {
+					display: none;
+				}
+
 				#nav a {
 					padding: 0 0.75em;
 					height: inherit;
