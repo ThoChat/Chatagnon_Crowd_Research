@@ -800,6 +800,41 @@
 		height: 3.5em;
 		line-height: 3.5em;
 
+		.inner {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: relative;
+		}
+
+		.name {
+			color: #fff;
+			font-weight: 700;
+			font-size: 1em;
+			white-space: nowrap;
+			position: absolute;
+			left: 0;
+		}
+
+		.lab-link {
+			color: #fff;
+			font-weight: 600;
+			font-size: 1em;
+			text-decoration: none;
+			position: absolute;
+			right: 0;
+			border-radius: 8px;
+			padding: 0 1.25em;
+			height: 2.5em;
+			line-height: 2.5em;
+			transition: background-color .2s ease-in-out;
+
+			&:hover {
+				color: #fff !important;
+				background: #383838;
+			}
+		}
+
 		ul {
 			margin-bottom: 0;
 			list-style: none;
@@ -1138,6 +1173,26 @@
 			#nav {
 				height: 44px;
 				line-height: 44px;
+
+				.inner {
+					justify-content: space-between;
+				}
+
+				.name {
+					position: static;
+				}
+
+				.lab-link {
+					position: static;
+					height: inherit;
+					line-height: inherit;
+					padding: 0 0.75em;
+					border-radius: 0;
+				}
+
+				ul {
+					display: none;
+				}
 
 				a {
 					padding: 0 0.75em;
