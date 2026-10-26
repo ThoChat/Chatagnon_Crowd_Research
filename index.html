@@ -1,233 +1,334 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en-GB">
 	<head>
-		<title>Thomas Chatagnon — Research in Crowd Dynamics</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Thomas Chatagnon — Research in Crowd Dynamics</title>
+		<meta name="description" content="Thomas Chatagnon is a postdoctoral researcher at Forschungszentrum Jülich (IAS-7) studying dense crowd dynamics, biomechanics in crowds and physical interactions between people." />
+		<meta name="author" content="Thomas Chatagnon" />
+		<link rel="canonical" href="https://thochat.github.io/Chatagnon_Crowd_Research/" />
+		<meta name="color-scheme" content="light dark" />
+		<meta name="theme-color" content="#f6efe3" media="(prefers-color-scheme: light)" />
+		<meta name="theme-color" content="#4f3e1e" media="(prefers-color-scheme: dark)" />
+
+		<!-- Link previews (LinkedIn, Slack, Mastodon, …) -->
+		<meta property="og:type" content="profile" />
+		<meta property="og:title" content="Thomas Chatagnon — Research in Crowd Dynamics" />
+		<meta property="og:description" content="Postdoctoral researcher at Forschungszentrum Jülich studying dense crowd dynamics, biomechanics in crowds and physical interactions." />
+		<meta property="og:url" content="https://thochat.github.io/Chatagnon_Crowd_Research/" />
+		<meta property="og:image" content="https://thochat.github.io/Chatagnon_Crowd_Research/images/portrait.jpg" />
+		<meta property="og:image:alt" content="Portrait of Thomas Chatagnon" />
+		<meta property="profile:first_name" content="Thomas" />
+		<meta property="profile:last_name" content="Chatagnon" />
+		<meta name="twitter:card" content="summary" />
+
+		<link rel="icon" href="favicon.png" type="image/png" />
+		<link rel="preload" href="assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="assets/js/main.js" defer></script>
+
+		<!-- Structured data, helps search engines identify you and link your profiles -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "Thomas Chatagnon",
+			"jobTitle": "Postdoctoral Researcher",
+			"url": "https://thochat.github.io/Chatagnon_Crowd_Research/",
+			"image": "https://thochat.github.io/Chatagnon_Crowd_Research/images/portrait.jpg",
+			"affiliation": {
+				"@type": "Organization",
+				"name": "Forschungszentrum Jülich, Institute for Advanced Simulation: Civil Safety Research (IAS-7)",
+				"url": "https://www.fz-juelich.de/en/ias/ias-7"
+			},
+			"alumniOf": [
+				{ "@type": "CollegeOrUniversity", "name": "ENS Rennes" },
+				{ "@type": "CollegeOrUniversity", "name": "Cranfield University" },
+				{ "@type": "CollegeOrUniversity", "name": "ENSEEIHT" }
+			],
+			"knowsAbout": ["Dense crowd dynamics", "Biomechanics in crowds", "Physical interactions", "Human gait and postural control", "Complex systems modelling"],
+			"sameAs": [
+				"https://orcid.org/0000-0003-2686-7182",
+				"https://www.linkedin.com/in/thomas-chatagnon-7b5685156/",
+				"https://www.researchgate.net/profile/Thomas-Chatagnon",
+				"https://github.com/ThoChat"
+			]
+		}
+		</script>
 	</head>
-	<body class="is-preload">
+	<body>
 
-		<!-- Nav -->
-			<nav id="nav">
-				<div class="container inner">
-					<span class="name">Thomas Chatagnon</span>
-					<ul>
-						<li><a href="#top">About Me</a></li>
-						<li><a href="#projects">Projects</a></li>
-						<li><a href="#publications">Publications</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-					<a href="https://www.fz-juelich.de/en/ias/ias-7" class="lab-link" target="_blank">Lab</a>
-				</div>
-			</nav>
+		<a class="skip-link" href="#main">Skip to content</a>
 
-		<!-- About Me -->
-			<article id="top" class="wrapper style1">
+		<!-- Icons, used as <svg class="icon"><use href="#i-NAME"/></svg>.
+		     Brand icons and the comments, paper-plane and university icons: Font Awesome Free 5 (CC BY 4.0, https://fontawesome.com/license/free).
+		     To add one, download an SVG from https://fontawesome.com/v5/search?m=free and copy its viewBox and path into a new <symbol>.
+		     The InDense and EPiC project icons are drawn for this site on a 24×24 grid. -->
+			<svg class="sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+				<symbol id="i-orcid" viewBox="0 0 512 512"><path d="M294.75 188.19c58.13 0 84.67 35.26 84.67 76.899c0 25.57-15.5 76.91-83.12 76.91h-47.47v-153.81h45.92zM256 8c137 0 248 111 248 248s-111 248-248 248s-248-111-248-248s111-248 248-248zM175.21 368.76v-207.5h-29.84v207.5h29.84zM160.29 137.62c10.783-0.038 19.531-8.787 19.57-19.57c0-10.801-8.77-19.569-19.57-19.569s-19.57 8.769-19.57 19.569s8.77 19.57 19.57 19.57zM300 369c68.38 0 110-50.61 110.04-103.89c0-49.02-33.71-103.851-110.44-103.851h-80.6v207.74h81z"/></symbol>
+				<symbol id="i-linkedin-in" viewBox="0 0 448 512"><path d="M100.28 448h-92.88v-299.1h92.88v299.1zM53.79 108.1c-29.7 0-53.79-24.6-53.79-54.3c0-29.688 24.102-53.79 53.79-53.79s53.79 24.102 53.79 53.79c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.681v-145.6c0-34.7-0.7-79.2-48.29-79.2c-48.29 0-55.69 37.7-55.69 76.7v148.1h-92.78v-299.1h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3c94 0 111.28 61.899 111.28 142.3v164.3h-0.1z"/></symbol>
+				<symbol id="i-researchgate" viewBox="0 0 448 512"><path d="M0 32h448v448h-448v-448zM262.2 366.4v-7.301c-10 0-20-6.899-27.2-14.699c-12.2-13.301-28.6-34.7-42.2-58.9c22.5-5.3 39.2-26.4 39.2-47.5c0-31.2-24.2-45.6-55.9-45.6c-17.8 0-45.1 1.6-70.899 0.6v8.1c15.6 2.9 22 1.301 22 23.9v109.4c0 22.6-6.5 21-22 23.899v8.101c7.5-0.2 20.5-0.801 33.6-0.801c12.5 0 28.7 0.5 35.601 0.801v-8.101c-19.801-2.7-25.801-0.399-25.801-23.899v-46.4c6.7 0.6 12.5 0.6 21.4 0.6c16.9 30.301 33 53 42.2 63.601c16.8 20.2 43.399 17.2 50 14.2zM285.1 231.4c38.7 0 34-29.4 34-49.9h-30.399v10.7h17.899c0 15.899-7.399 26.8-21.5 26.8c-11.3 0-17.899-9.9-17.899-23.3v-26.8c0-12.4 11.8-19.7 19.7-19.7c14.199 0 19.699 12.5 19.699 12.5l10.7-7.2s-5.2-17.9-30.399-17.9c-25.2 0-34 18.2-34 30.4v32.2c0 16.5 8.899 32.2 32.199 32.2zM168.6 276.1c-9.399 0-13.6-0.3-20-0.8v-69.7c6.4-0.6 15-0.6 22.5-0.6c23.301 0 37.2 12.2 37.2 34.5c0 21.9-15 36.6-39.7 36.6z"/></symbol>
+				<symbol id="i-github" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.301 3.6-5.2 3.6c-3.3 0.3-5.601-1.3-5.601-3.6c0-2 2.301-3.601 5.2-3.601c3-0.3 5.601 1.3 5.601 3.601zM134.8 392.9c0.7-2 3.601-3 6.2-2.301c3 0.9 4.9 3.2 4.3 5.2c-0.6 2-3.6 3-6.2 2c-3-0.6-5-2.899-4.3-4.899zM179 391.2c2.9-0.3 5.6 1 5.9 2.899c0.3 2-1.7 3.9-4.601 4.601c-3 0.7-5.6-0.601-5.899-2.601c-0.301-2.3 1.699-4.199 4.6-4.899zM244.8 8c138.7 0 251.2 105.3 251.2 244c0 110.9-67.8 205.8-167.8 239c-12.7 2.3-17.3-5.6-17.3-12.1c0-8.2 0.3-49.9 0.3-83.601c0-23.5-7.8-38.5-17-46.399c55.899-6.301 114.8-14 114.8-110.5c0-27.4-9.8-41.2-25.8-58.9c2.6-6.5 11.1-33.2-2.601-67.9c-20.899-6.6-69 27-69 27c-20-5.6-41.5-8.5-62.8-8.5s-42.8 2.9-62.8 8.5c0 0-48.1-33.5-69-27c-13.7 34.601-5.2 61.4-2.6 67.9c-16 17.6-23.601 31.4-23.601 58.9c0 96.199 56.4 104.3 112.3 110.5c-7.199 6.6-13.699 17.699-16 33.699c-14.3 6.601-51 17.7-72.899-20.899c-13.7-23.8-38.601-25.8-38.601-25.8c-24.5-0.301-1.6 15.399-1.6 15.399c16.4 7.5 27.8 36.601 27.8 36.601c14.7 44.8 84.7 29.8 84.7 29.8c0 21 0.3 55.2 0.3 61.399c0 6.5-4.5 14.4-17.3 12.101c-99.7-33.4-169.5-128.3-169.5-239.2c0-138.7 106.1-244 244.8-244zM97.2 352.9c1.3-1.301 3.6-0.601 5.2 1c1.699 1.899 2 4.199 0.699 5.199c-1.3 1.301-3.6 0.601-5.199-1c-1.7-1.899-2-4.199-0.7-5.199zM86.4 344.8c0.699-1 2.3-1.3 4.3-0.7c2 1 3 2.601 2.3 3.9c-0.7 1.4-2.7 1.7-4.3 0.7c-2-1-3-2.601-2.3-3.9zM118.8 380.4c1.3-1.601 4.3-1.301 6.5 1c2 1.899 2.601 4.899 1.3 6.199c-1.3 1.601-4.199 1.301-6.5-1c-2.3-1.899-2.899-4.899-1.3-6.199zM107.4 365.7c1.6-1.3 4.199-0.3 5.6 2c1.6 2.3 1.6 4.899 0 6.2c-1.3 1-4 0-5.6-2.301c-1.601-2.3-1.601-4.899 0-5.899z"/></symbol>
+				<!-- InDense: one person leans on another, who takes a recovery step. -->
+				<symbol id="i-balance-step" viewBox="0 0 24 24"><circle cx="9" cy="5.75" r="2.5"/><circle cx="19.25" cy="5.25" r="2.5"/><path d="M7.25 9.25 5.1 13.75M17 8.75 13.75 13.5" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/><path d="M5.1 13.75 1.5 21.25M5.1 13.75l1.9 7.5M13.75 13.5l-2 7.75M13.75 13.5l4.75 7.75" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.25 9.75l5.5 1M17 9.25l5.5.25M16.75 10l4.75 2.75" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></symbol>
+				<!-- EPiC: two people pressed together, with a spark marking the perceived contact. -->
+				<symbol id="i-contact" viewBox="0 0 24 24"><circle cx="6.25" cy="10" r="3"/><circle cx="17.75" cy="10" r="3"/><path d="M0.5 23v-2.5a5 5 0 0 1 5-5h1.5a5 5 0 0 1 5 5V23zM12 23v-2.5a5 5 0 0 1 5-5h1.5a5 5 0 0 1 5 5V23z"/><path d="M12 2.5v3.5M8.5 4l1.5 2.5M15.5 4 14 6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+				<symbol id="i-comments" viewBox="0 0 576 512"><path d="M416 192c0 88.4-93.1 160-208 160c-41 0-79.1-9.3-111.3-25c-21.8 12.7-52.101 25-88.7 25c-3.2 0-6-1.8-7.3-4.8s-0.7-6.4 1.5-8.7c0.3-0.3 22.399-24.3 35.8-54.5c-23.9-26.1-38-57.7-38-92c0-88.4 93.1-160 208-160s208 71.6 208 160zM538 412c13.4 30.3 35.5 54.2 35.8 54.5c2.2 2.4 2.8 5.8 1.5 8.7c-1.2 2.899-4.1 4.8-7.3 4.8c-36.6 0-66.9-12.3-88.7-25c-32.2 15.8-70.3 25-111.3 25c-86.2 0-160.2-40.4-191.7-97.9c10.4 1.101 20.9 1.9 31.7 1.9c132.3 0 240-86.1 240-192c0-6.8-0.4-13.5-1.3-20.1c75.8 23.899 129.3 81.199 129.3 148.1c0 34.3-14.1 66-38 92z"/></symbol>
+				<symbol id="i-paper-plane" viewBox="0 0 512 512"><path d="M476 3.2c17.3-10 39 4.6 35.6 24.8l-72 432c-2.6 15.3-18.8 24.2-33 18.2l-124.6-52.2l-63.5 77.3c-14 17.101-42.5 7.8-42.5-15.8v-80.5l240.9-293.5c4.699-5.7-3.101-13.2-8.601-8.3l-287.3 253.2l-106.3-44.601c-18-7.6-20.3-32.8-2.2-43.2z"/></symbol>
+				<symbol id="i-university" viewBox="0 0 512 512"><path d="M496 128v16c0 4.415-3.585 8-8 8h-24v12c0 6.627-5.373 12-12 12h-392c-6.627 0-12-5.373-12-12v-12h-24c-4.415 0-8-3.585-8-8v-16c0-3.334 2.039-6.191 4.941-7.392l232-88c0.94-0.39 1.972-0.605 3.054-0.605c1.081 0 2.123 0.216 3.063 0.605l232 88c2.902 1.2 4.941 4.058 4.941 7.392zM472 432c13.255 0 24 10.745 24 24v16c0 4.415-3.585 8-8 8h-464c-4.415 0-8-3.585-8-8v-16c0-13.255 10.745-24 24-24h432zM96 192h64v192h64v-192h64v192h64v-192h64v192h36c6.627 0 12 5.373 12 12v20h-416v-20c0-6.627 5.373-12 12-12h36v-192z"/></symbol>
+				<symbol id="i-external" viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+				<symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+				<symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5m-6 6 6-6 6 6" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+			</svg>
+
+		<!-- Header -->
+			<header class="site-header">
 				<div class="container">
-					<div class="row">
-						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/Chatagnon Thomas 2025_watermarked.webp" alt="Thomas Chatagnon" /></span>
+					<a class="brand" href="#about">
+						<span class="brand-mark" aria-hidden="true"></span>
+						<span class="brand-name">Thomas Chatagnon</span>
+					</a>
+					<nav class="site-nav" aria-label="Main">
+						<ul>
+							<li class="nav-about"><a href="#about">About</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#publications">Publications</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+
+		<main id="main">
+
+		<!-- About -->
+			<section id="about" class="hero" aria-labelledby="about-title">
+				<div class="container">
+					<div class="hero-text">
+						<p class="eyebrow">Postdoctoral researcher · Forschungszentrum Jülich</p>
+						<h1 id="about-title">Thomas Chatagnon</h1>
+						<p class="lead">My research focuses on understanding and modelling the complex dynamics associated with interpersonal contacts in dense human crowds, to improve safety and comfort in public spaces.</p>
+						<p class="hero-bio">I am a postdoctoral researcher at Forschungszentrum Jülich (Germany), in the Modelling division of the <a href="https://www.fz-juelich.de/en/ias/ias-7" target="_blank" rel="noopener">Institute for Advanced Simulation: Civil Safety Research (IAS-7)<span class="visually-hidden"> (opens in a new tab)</span></a>. I hold a PhD in Biomechanics from ENS Rennes (France) and have a background in fluid dynamics, with MSc degrees from Cranfield University (UK) and ENSEEIHT (France). The main research areas associated with my work are human gait and postural control, crowd dynamics, and complex systems modelling.</p>
+						<div class="interests">
+							<p class="interests-label" id="interests-label">Research interests</p>
+							<ul class="chips" aria-labelledby="interests-label">
+								<li>Dense crowd dynamics</li>
+								<li>Biomechanics in crowds</li>
+								<li>Physical interactions</li>
+							</ul>
 						</div>
-						<div class="col-8 col-7-large col-12-medium">
-							<header>
-								<h1><strong>About</strong> </h1>
-							</header>
-							<p>I am currently a Postdoctoral researcher at the Forschungszentrum Jülich (Germany) and part of the Modelling division of the Institute for Advanced Simulation: Civil Safety Research (IAS-7). I am qualified with a PhD in Biomechanics from ENS Rennes (France) and have a background in fluid dynamics (MSc, MSc — Cranfield Uni., UK; ENSEEIHT, France). My research focuses on understanding and modelling the complex dynamics associated with interpersonal contacts in dense human crowds to improve safety and comfort in public spaces. The main research areas associated with my work are human gait and postural control, crowd dynamics, and complex systems modelling.</p>
-							<p><strong>Research interests:</strong> Dense crowd dynamics, biomechanics in crowds, physical interactions.</p>
-							<a href="#projects" class="button large scrolly">See my projects</a>
+						<div class="hero-actions">
+							<a class="button button-primary" href="#publications">View publications <svg class="icon icon-nudge" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+							<a class="button button-secondary" href="#contact">Get in touch</a>
 						</div>
+						<ul class="profiles" aria-label="Profiles">
+							<li><a href="https://orcid.org/0000-0003-2686-7182" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-orcid"/></svg>ORCID<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+							<li><a href="https://www.linkedin.com/in/thomas-chatagnon-7b5685156/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-linkedin-in"/></svg>LinkedIn<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+							<li><a href="https://www.researchgate.net/profile/Thomas-Chatagnon" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-researchgate"/></svg>ResearchGate<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+							<li><a href="https://github.com/ThoChat" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>GitHub<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+						</ul>
+					</div>
+					<div class="hero-photo">
+						<img src="images/portrait-720.webp" srcset="images/portrait-720.webp 720w, images/portrait.webp 1200w" sizes="(max-width: 52rem) 9rem, 24rem" width="720" height="719" alt="Portrait of Thomas Chatagnon" fetchpriority="high" />
 					</div>
 				</div>
-			</article>
+			</section>
 
-		<!-- Projects - to change the icons: Font Awesome 5 Free icon (https://fontawesome.com/v5/search?m=free) -->
-			<article id="projects" class="wrapper style2">
+		<!-- Projects -->
+			<section id="projects" class="section section-alt" aria-labelledby="projects-title">
 				<div class="container">
-					<header>
-						<h2>Projects</h2>
+					<header class="section-header">
+						<h2 id="projects-title">Projects</h2>
 						<p>An overview of my research and engineering projects.</p>
 					</header>
-					<div class="row aln-center">
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon solid featured fad fa-users"></span>
-								<h3>InDense</h3>
-								<h4>(accepted - DFG fundings)</h4>
-								<p>Introducing new modelling paradigms accounting for human balance recovery mechanisms to represent complex dense crowd dynamics experimentally observed.</p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon solid featured fas fa-user-edit"></span>
-								<h3>EPiC</h3>
-								<h4>(under review - DFG grant)</h4>
-								<p>Studying the emergence in the perception of physical contacts in human crowds. </p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon solid featured fa-regular fa-comment"></span>
-								<h3>Workshop </h3>
-								<h4>Physical Interactions in Crowds</h4>
-								<p>Co-organisation with Dr. Juliane Adrian and Dr. Mira Küpper. </p>
-							</section>
-						</div>
-					</div>
-					<footer>
-						<p>Want to learn more about my work?</p>
-						<a href="#publications" class="button large scrolly">View my publications</a>
-					</footer>
+					<!-- Badge colours: badge-ok (green), badge-pending (amber), or plain badge (grey). Icons: see the note at the top of <body>. -->
+					<ul class="cards">
+						<li class="card">
+							<span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-balance-step"/></svg></span>
+							<h3>InDense</h3>
+							<p class="badge badge-ok">Accepted · DFG funding</p>
+							<p>Introducing new modelling paradigms accounting for human balance recovery mechanisms to represent the complex dense crowd dynamics observed in experiments.</p>
+						</li>
+						<li class="card">
+							<span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-contact"/></svg></span>
+							<h3>EPiC</h3>
+							<p class="badge badge-pending">Under review · DFG grant</p>
+							<p>Studying the emergence and perception of interindividual contacts in human crowds.</p>
+						</li>
+						<li class="card">
+							<span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-comments"/></svg></span>
+							<h3>Physical Interactions in Crowds</h3>
+							<p class="badge">Workshop · In preparation</p>
+							<p>Co-organised with Dr Juliane Adrian and Dr Mira Küpper.</p>
+						</li>
+					</ul>
 				</div>
-			</article>
+			</section>
 
 		<!-- Publications -->
-			<article id="publications" class="wrapper style3">
+			<section id="publications" class="section" aria-labelledby="publications-title">
 				<div class="container">
-					<header>
-						<h2>Publications</h2>
-						<p>Selected academic publications.</p>
+					<header class="section-header section-header-row">
+						<div>
+							<h2 id="publications-title">Publications</h2>
+							<p>Selected academic publications.</p>
+						</div>
+						<a class="button button-secondary" href="https://orcid.org/0000-0003-2686-7182" target="_blank" rel="noopener">Full list on ORCID <svg class="icon" aria-hidden="true"><use href="#i-external"/></svg><span class="visually-hidden"> (opens in a new tab)</span></a>
 					</header>
-					<div class="row">
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://doi.org/10.1371/journal.pcsy.0000110" class="image featured" target="_blank"><img src="images/When legs and bodies synchronize.webp" alt="" loading="lazy" /></a>
-								<h3><a href="https://doi.org/10.1371/journal.pcsy.0000110" target="_blank">Giving particles legs: How balance recovery may drive emergent collective dynamics in ultra-dense crowds</a></h3>
-								<p>Chatagnon T. et al. <em>PLOS Complex Systems</em>, vol. 3, 2026.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://doi.org/10.1016/j.firesaf.2026.104740" class="image featured" target="_blank"><img src="images/Measuring gait space.webp" alt="" loading="lazy" /></a>
-								<h3><a href="https://doi.org/10.1016/j.firesaf.2026.104740" target="_blank">Measuring gait space: new dimensions for crowd flow</a></h3>
-								<p>Thompson et al. <em>Fire Safety Journal</em>, vol. 162, 2026.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://doi.org/10.1007/978-3-032-02221-9_2" class="image featured" target="_blank"><img src="images/Exploring dense crowd dynamics.webp" alt="" loading="lazy" /></a>
-								<h3><a href="https://doi.org/10.1007/978-3-032-02221-9_2" target="_blank">Exploring dense crowd dynamics: state of the art and emerging paradigms</a></h3>
-								<p>Chatagnon T., Tordeux, A., and Chraibi, M. <em>Crowd Dynamics</em>, vol. 5, pp. 9–36, 2025.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://doi.org/10.17815/CD.2025.189" class="image featured" target="_blank"><img src="images/Glossary for Research on Human Crowd Dynamics.webp" alt="" loading="lazy" /></a>
-								<h3><a href="https://doi.org/10.17815/CD.2025.189" target="_blank">Glossary for Research on Human Crowd Dynamics — 2nd Edition</a></h3>
-								<p>Adrian J. et al. <em>Collective Dynamics</em>, vol. 10, 2025.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://doi.org/10.1016/j.jbiomech.2025.112639" class="image featured" target="_blank"><img src="images/Classification of first recovery steps.webp" alt="" loading="lazy" /></a>
-								<h3><a href="https://doi.org/10.1016/j.jbiomech.2025.112639" target="_blank">Classification of first recovery steps after quiet standing following external perturbation from different directions</a></h3>
-								<p>Chatagnon T. et al. <em>Journal of Biomechanics</em>, vol. 184, 2025.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://doi.org/10.1016/j.ssci.2024.106601" class="image featured" target="_blank"><img src="images/Standing balance recovery strategies of young adults in a densely populated environment .webp" alt="" loading="lazy" /></a>
-								<h3><a href="https://doi.org/10.1016/j.ssci.2024.106601" target="_blank">Standing balance recovery strategies of young adults in a densely populated environment following external perturbations</a></h3>
-								<p>Chatagnon T. et al. <em>Safety Science</em>, vol. 177, 2024.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://doi.org/10.1016/j.ssci.2024.106512" class="image featured" target="_blank"><img src="images/Temporal segmentation of motion propagation i.webp" alt="" loading="lazy" /></a>
-								<h3><a href="https://doi.org/10.1016/j.ssci.2024.106512" target="_blank">Temporal segmentation of motion propagation in response to an external impulse</a></h3>
-								<p>Feldmann S. et al. <em>Safety Science</em>, vol. 175, 2024.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://doi.org/10.1016/j.jbiomech.2023.111703" class="image featured" target="_blank"><img src="images/Stepping strategies of young adults undergoing sudden.webp" alt="" loading="lazy" /></a>
-								<h3><a href="https://doi.org/10.1016/j.jbiomech.2023.111703" target="_blank">Stepping strategies of young adults undergoing sudden external perturbation from different directions</a></h3>
-								<p>Chatagnon T. et al. <em>Journal of Biomechanics</em>, vol. 157, 2023.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://doi.org/10.1145/3623264.3624448" class="image featured" target="_blank"><img src="images/Physical Simulation of Balance Recovery after a Push.webp" alt="" loading="lazy" /></a>
-								<h3><a href="https://doi.org/10.1145/3623264.3624448" target="_blank">Physical Simulation of Balance Recovery after a Push</a></h3>
-								<p>Jensen A. et al. <em>MIG '23: Proceedings</em>, 2023.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://doi.org/10.1016/j.cag.2021.06.005" class="image featured" target="_blank"><img src="images/SPH crowds.webp" alt="" loading="lazy" /></a>
-								<h3><a href="https://doi.org/10.1016/j.cag.2021.06.005" target="_blank">SPH crowds: Agent-based crowd simulation up to extreme densities using fluid dynamics</a></h3>
-								<p>van Toll W. et al. <em>Computers &amp; Graphics</em>, vol. 98, 2021.</p>
-							</article>
-						</div>
-					</div>
-					<footer>
-						<p>Interested in collaborating or discussing research?</p>
-						<a href="#contact" class="button large scrolly">Get in touch</a>
-					</footer>
+					<!-- To add a publication, copy one <li class="pub"> block. Put your own name in <strong>.
+					     Thumbnails go in images/publications/; set width/height to the image's pixel size. -->
+					<ul class="pubs">
+						<li class="pub">
+							<a class="pub-figure" href="https://doi.org/10.1371/journal.pcsy.0000110" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="images/publications/giving-particles-legs.webp" alt="" width="773" height="700" loading="lazy" decoding="async" /></a>
+							<div class="pub-body">
+								<h3 class="pub-title"><a href="https://doi.org/10.1371/journal.pcsy.0000110" target="_blank" rel="noopener">Giving particles legs: How balance recovery may drive emergent collective dynamics in ultra-dense crowds<span class="visually-hidden"> (opens in a new tab)</span><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a></h3>
+								<p class="pub-year">2026</p>
+								<p class="pub-authors"><strong>Chatagnon T.</strong> et al.</p>
+								<p class="pub-venue"><cite>PLOS Complex Systems</cite>, vol. 3</p>
+							</div>
+						</li>
+						<li class="pub">
+							<a class="pub-figure" href="https://doi.org/10.1016/j.firesaf.2026.104740" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="images/publications/measuring-gait-space.webp" alt="" width="1111" height="700" loading="lazy" decoding="async" /></a>
+							<div class="pub-body">
+								<h3 class="pub-title"><a href="https://doi.org/10.1016/j.firesaf.2026.104740" target="_blank" rel="noopener">Measuring gait space: new dimensions for crowd flow<span class="visually-hidden"> (opens in a new tab)</span><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a></h3>
+								<p class="pub-year">2026</p>
+								<p class="pub-authors">Thompson P. et al.</p>
+								<p class="pub-venue"><cite>Fire Safety Journal</cite>, vol. 162</p>
+							</div>
+						</li>
+						<li class="pub">
+							<a class="pub-figure" href="https://doi.org/10.1007/978-3-032-02221-9_2" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="images/publications/exploring-dense-crowd-dynamics.webp" alt="" width="1200" height="481" loading="lazy" decoding="async" /></a>
+							<div class="pub-body">
+								<h3 class="pub-title"><a href="https://doi.org/10.1007/978-3-032-02221-9_2" target="_blank" rel="noopener">Exploring dense crowd dynamics: state of the art and emerging paradigms<span class="visually-hidden"> (opens in a new tab)</span><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a></h3>
+								<p class="pub-year">2025</p>
+								<p class="pub-authors"><strong>Chatagnon T.</strong>, Tordeux A., and Chraibi M.</p>
+								<p class="pub-venue"><cite>Crowd Dynamics</cite>, vol. 5, pp. 9–36</p>
+							</div>
+						</li>
+						<li class="pub">
+							<a class="pub-figure" href="https://doi.org/10.17815/CD.2025.189" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="images/publications/glossary-crowd-dynamics.webp" alt="" width="1200" height="600" loading="lazy" decoding="async" /></a>
+							<div class="pub-body">
+								<h3 class="pub-title"><a href="https://doi.org/10.17815/CD.2025.189" target="_blank" rel="noopener">Glossary for Research on Human Crowd Dynamics — 2nd Edition<span class="visually-hidden"> (opens in a new tab)</span><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a></h3>
+								<p class="pub-year">2025</p>
+								<p class="pub-authors">Adrian J. et al.</p>
+								<p class="pub-venue"><cite>Collective Dynamics</cite>, vol. 10</p>
+							</div>
+						</li>
+						<li class="pub">
+							<a class="pub-figure" href="https://doi.org/10.1016/j.jbiomech.2025.112639" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="images/publications/classification-recovery-steps.webp" alt="" width="1200" height="480" loading="lazy" decoding="async" /></a>
+							<div class="pub-body">
+								<h3 class="pub-title"><a href="https://doi.org/10.1016/j.jbiomech.2025.112639" target="_blank" rel="noopener">Classification of first recovery steps after quiet standing following external perturbation from different directions<span class="visually-hidden"> (opens in a new tab)</span><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a></h3>
+								<p class="pub-year">2025</p>
+								<p class="pub-authors"><strong>Chatagnon T.</strong> et al.</p>
+								<p class="pub-venue"><cite>Journal of Biomechanics</cite>, vol. 184</p>
+							</div>
+						</li>
+						<li class="pub">
+							<a class="pub-figure" href="https://doi.org/10.1016/j.ssci.2024.106601" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="images/publications/standing-balance-recovery.webp" alt="" width="1200" height="693" loading="lazy" decoding="async" /></a>
+							<div class="pub-body">
+								<h3 class="pub-title"><a href="https://doi.org/10.1016/j.ssci.2024.106601" target="_blank" rel="noopener">Standing balance recovery strategies of young adults in a densely populated environment following external perturbations<span class="visually-hidden"> (opens in a new tab)</span><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a></h3>
+								<p class="pub-year">2024</p>
+								<p class="pub-authors"><strong>Chatagnon T.</strong> et al.</p>
+								<p class="pub-venue"><cite>Safety Science</cite>, vol. 177</p>
+							</div>
+						</li>
+						<li class="pub">
+							<a class="pub-figure" href="https://doi.org/10.1016/j.ssci.2024.106512" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="images/publications/temporal-segmentation.webp" alt="" width="1200" height="335" loading="lazy" decoding="async" /></a>
+							<div class="pub-body">
+								<h3 class="pub-title"><a href="https://doi.org/10.1016/j.ssci.2024.106512" target="_blank" rel="noopener">Temporal segmentation of motion propagation in response to an external impulse<span class="visually-hidden"> (opens in a new tab)</span><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a></h3>
+								<p class="pub-year">2024</p>
+								<p class="pub-authors">Feldmann S. et al.</p>
+								<p class="pub-venue"><cite>Safety Science</cite>, vol. 175</p>
+							</div>
+						</li>
+						<li class="pub">
+							<a class="pub-figure" href="https://doi.org/10.1016/j.jbiomech.2023.111703" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="images/publications/stepping-strategies.webp" alt="" width="423" height="700" loading="lazy" decoding="async" /></a>
+							<div class="pub-body">
+								<h3 class="pub-title"><a href="https://doi.org/10.1016/j.jbiomech.2023.111703" target="_blank" rel="noopener">Stepping strategies of young adults undergoing sudden external perturbation from different directions<span class="visually-hidden"> (opens in a new tab)</span><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a></h3>
+								<p class="pub-year">2023</p>
+								<p class="pub-authors"><strong>Chatagnon T.</strong> et al.</p>
+								<p class="pub-venue"><cite>Journal of Biomechanics</cite>, vol. 157</p>
+							</div>
+						</li>
+						<li class="pub">
+							<a class="pub-figure" href="https://doi.org/10.1145/3623264.3624448" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="images/publications/balance-recovery-simulation.webp" alt="" width="680" height="700" loading="lazy" decoding="async" /></a>
+							<div class="pub-body">
+								<h3 class="pub-title"><a href="https://doi.org/10.1145/3623264.3624448" target="_blank" rel="noopener">Physical Simulation of Balance Recovery after a Push<span class="visually-hidden"> (opens in a new tab)</span><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a></h3>
+								<p class="pub-year">2023</p>
+								<p class="pub-authors">Jensen A. et al.</p>
+								<p class="pub-venue"><cite>MIG ’23: Proceedings</cite></p>
+							</div>
+						</li>
+						<li class="pub">
+							<a class="pub-figure" href="https://doi.org/10.1016/j.cag.2021.06.005" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="images/publications/sph-crowds.webp" alt="" width="686" height="700" loading="lazy" decoding="async" /></a>
+							<div class="pub-body">
+								<h3 class="pub-title"><a href="https://doi.org/10.1016/j.cag.2021.06.005" target="_blank" rel="noopener">SPH crowds: Agent-based crowd simulation up to extreme densities using fluid dynamics<span class="visually-hidden"> (opens in a new tab)</span><svg class="icon" aria-hidden="true"><use href="#i-external"/></svg></a></h3>
+								<p class="pub-year">2021</p>
+								<p class="pub-authors">van Toll W. et al.</p>
+								<p class="pub-venue"><cite>Computers &amp; Graphics</cite>, vol. 98</p>
+							</div>
+						</li>
+					</ul>
 				</div>
-			</article>
+			</section>
 
 		<!-- Contact -->
-			<article id="contact" class="wrapper style4">
-				<div class="container medium">
-					<header>
-						<h2>Contact</h2>
-						<p>Let's connect. Reach out for collaborations, questions, or just to chat about crowd dynamics.</p>
-					</header>
-					<div class="row">
-						<div class="col-12">
-							<form method="post" action="https://formspree.io/f/mnjkdqgl">
-								<!-- <input type="hidden" name="_subject" value="New Contact Form Submission" /> -->
-								<div class="row">
-									<div class="col-6 col-12-small">
-										<input type="text" name="name" id="name" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="text" name="email" id="email" placeholder="Email" />
-									</div>
-									<div class="col-12">
-										<input type="text" name="subject" id="subject" placeholder="Subject" />
-									</div>
-									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Send message" /></li>
-											<li><input type="reset" value="Clear all" class="alt" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</div>
-						<div class="col-12">
-							<hr />
-							<h3>Find me also on</h3>
-							<ul class="social">
-								<li><a href="https://orcid.org/0000-0003-2686-7182" class="icon brands fa-orcid" title="ORCID" target="_blank"><span class="label">ORCID</span></a></li>
-								<li><a href="https://www.linkedin.com/in/thomas-chatagnon-7b5685156/" class="icon brands fa-linkedin-in" title="LinkedIn" target="_blank"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://www.researchgate.net/profile/Thomas-Chatagnon?ev=hdr_xprf" class="icon brands fa-researchgate" title="ResearchGate" target="_blank"><span class="label">ResearchGate</span></a></li>
-								<li><a href="https://github.com/ThoChat" class="icon brands fa-github" title="GitHub" target="_blank"><span class="label">GitHub</span></a></li>
-							</ul>
-							<!-- <p style="margin-top: 1em;"><a href="#">thomas.chatagnon[at]xxx.com</a></p> -->
-							<hr />
-						</div>
-					</div>
-					<footer>
-						<ul id="copyright">
-							<li>&copy; Thomas Chatagnon. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			<section id="contact" class="section section-alt contact" aria-labelledby="contact-title">
+				<div class="container">
+					<div class="contact-intro">
+						<header class="section-header">
+							<h2 id="contact-title">Contact</h2>
+							<p>Let’s connect. Reach out for collaborations, questions, or just to chat about crowd dynamics.</p>
+						</header>
+						<h3 class="contact-subtitle">Find me also on</h3>
+						<ul class="contact-links">
+							<li><a href="https://orcid.org/0000-0003-2686-7182" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-orcid"/></svg>ORCID<span class="visually-hidden"> (opens in a new tab)</span><svg class="icon icon-end" aria-hidden="true"><use href="#i-external"/></svg></a></li>
+							<li><a href="https://www.linkedin.com/in/thomas-chatagnon-7b5685156/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-linkedin-in"/></svg>LinkedIn<span class="visually-hidden"> (opens in a new tab)</span><svg class="icon icon-end" aria-hidden="true"><use href="#i-external"/></svg></a></li>
+							<li><a href="https://www.researchgate.net/profile/Thomas-Chatagnon" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-researchgate"/></svg>ResearchGate<span class="visually-hidden"> (opens in a new tab)</span><svg class="icon icon-end" aria-hidden="true"><use href="#i-external"/></svg></a></li>
+							<li><a href="https://github.com/ThoChat" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>GitHub<span class="visually-hidden"> (opens in a new tab)</span><svg class="icon icon-end" aria-hidden="true"><use href="#i-external"/></svg></a></li>
+							<li><a href="https://www.fz-juelich.de/en/ias/ias-7" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-university"/></svg>IAS-7, Forschungszentrum Jülich<span class="visually-hidden"> (opens in a new tab)</span><svg class="icon icon-end" aria-hidden="true"><use href="#i-external"/></svg></a></li>
 						</ul>
-					</footer>
-				</div>
-			</article>
+						<!-- <p><a href="#">thomas.chatagnon[at]xxx.com</a></p> -->
+					</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+					<form class="contact-form" method="post" action="https://formspree.io/f/mnjkdqgl">
+						<!-- <input type="hidden" name="_subject" value="New Contact Form Submission" /> -->
+						<div class="field">
+							<label for="name">Name</label>
+							<input type="text" id="name" name="name" autocomplete="name" required />
+						</div>
+						<div class="field">
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email" autocomplete="email" required />
+						</div>
+						<div class="field field-full">
+							<label for="subject">Subject <span class="optional">(optional)</span></label>
+							<input type="text" id="subject" name="subject" />
+						</div>
+						<div class="field field-full">
+							<label for="message">Message</label>
+							<textarea id="message" name="message" rows="6" required></textarea>
+						</div>
+						<!-- Spam trap: hidden from people, filled in only by bots (Formspree discards those messages). -->
+						<input type="text" name="_gotcha" class="honeypot" tabindex="-1" autocomplete="off" />
+						<div class="form-footer">
+							<button type="submit" class="button button-primary"><svg class="icon" aria-hidden="true"><use href="#i-paper-plane"/></svg>Send message</button>
+							<p class="form-note">Messages are delivered via Formspree.</p>
+						</div>
+						<p class="form-status" role="status"></p>
+					</form>
+				</div>
+			</section>
+
+		</main>
+
+		<!-- Footer -->
+			<footer class="site-footer">
+				<div class="container">
+					<p>&copy; Thomas Chatagnon</p>
+					<p><a href="#about">Back to top <svg class="icon" aria-hidden="true"><use href="#i-arrow-up"/></svg></a></p>
+				</div>
+			</footer>
 
 	</body>
 </html>
